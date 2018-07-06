@@ -1,0 +1,10 @@
+
+isquid:UselessImportCheck">Remove this unused import 'models.livingBeing.Attack.Soldier'.(üê®ª8ÍŠÈé¿,
+Csquid:S1640Î"Convert this Map to an EnumMap.(Ò´şÕıÿÿÿÿ8ÍŠÈé¿,
+€squid:S4144h"]Update this method so that its implementation is not identical to "getStrCommand" on line 75.(ûğ»Êúÿÿÿÿ8ÍŠÈé¿,
+Psquid:S1481ù",Remove this unused "matcher" local variable.(–ğéÅûÿÿÿÿ8ÍŠÈé¿,
+psquid:S3776t"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(†¡ä8ÍŠÈé¿,
+Usquid:S1481Î"1Remove this unused "soldierToAdd" local variable.(Ò´şÕıÿÿÿÿ8ÍŠÈé¿,
+_squid:S1854ù";Remove this useless assignment to local variable "matcher".(–ğéÅûÿÿÿÿ8ÍŠÈé¿,
+Lsquid:S1068"".Remove this unused "MAP_FORMAT" private field.(¬óó8ÍŠÈé¿,
+dsquid:S1854Î"@Remove this useless assignment to local variable "soldierToAdd".(Ò´şÕıÿÿÿÿ8ÍŠÈé¿,

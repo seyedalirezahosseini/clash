@@ -1,0 +1,13 @@
+
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¼ ³ë8ÇŠÈé¿,
+ squid:ForLoopCounterChangedCheck$"XRefactor the code in order to not assign to this loop counter from within the loop body.(ĞŒøŒúÿÿÿÿ8ÇŠÈé¿,
+–squid:S1319"sThe type of the "soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(ÇÈÉàûÿÿÿÿ8ÇŠÈé¿,
+nsquid:S1301'"KReplace this "switch" statement by "if" statements to increase readability.(«ª™ßÿÿÿÿÿ8ÇŠÈé¿,
+{
+squid:S1355"YReduce the total number of break and continue statements in this loop to use at most one.(îĞ–™ıÿÿÿÿ8ÇŠÈé¿,
+isquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(ÇÚø8ÇŠÈé¿,
+Msquid:S1066+"/Merge this if statement with the enclosing one.(â‘çŸ8ÇŠÈé¿,
+“"squid:SwitchLastCaseIsDefaultCheck'"YComplete cases by adding the missing enum constants or add a default case to this switch.(«ª™ßÿÿÿÿÿ8ÇŠÈé¿,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ğÿæãùÿÿÿÿ8ÇŠÈé¿,
+Ksquid:S1068"-Remove this unused "resources" private field.(ò’Áü8ÇŠÈé¿,
+\squid:S11553">Use isEmpty() to check whether the collection is empty or not.(¯¬ˆà8ÇŠÈé¿,

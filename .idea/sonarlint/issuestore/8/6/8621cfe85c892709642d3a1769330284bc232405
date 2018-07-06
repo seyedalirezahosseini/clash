@@ -1,0 +1,7 @@
+
+Lsquid:S1068
+")Remove this unused "giant" private field.(Ù¢­Šûÿÿÿÿ8Ì˜±Ñ½,
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(óÍõ$8Ì˜±Ñ½,
+Usquid:S1135"2Complete the task associated to this TODO comment.(ò‹ØÕøÿÿÿÿ8Ì˜±Ñ½,
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç›ªh8Ì˜±Ñ½,
+squid:S1319"sThe type of the "Soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç›ªh8Ì˜±Ñ½,

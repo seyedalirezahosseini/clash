@@ -1,0 +1,17 @@
+
+=squid:S1640b"Convert this Map to an EnumMap.(ª½¹ˆ8Âİ¬ùÆ,
+‹ squid:ForLoopCounterChangedCheckõ"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8Âİ¬ùÆ,
+bsquid:S2147F"DCombine this catch with the one at line 68, which has the same body.(ï­£Ä8Âİ¬ùÆ,
+Fsquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Âİ¬ùÆ,
+”squid:S1319ñ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤Šâÿÿÿÿÿ8Âİ¬ùÆ,
+‹ squid:ForLoopCounterChangedCheck¹"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8Âİ¬ùÆ,
+\"squid:SwitchLastCaseIsDefaultCheckR""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8Âİ¬ùÆ,
+qsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(èŠ¥»8Âİ¬ùÆ,
+{
+squid:S135("YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8Âİ¬ùÆ,
+n squid:LabelsShouldNotBeUsedCheck";Refactor the code to remove this label and the need for it.(àÏÅ)8Âİ¬ùÆ,
+|
+squid:S135‘"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8Âİ¬ùÆ,
+Nsquid:S1066…"/Merge this if statement with the enclosing one.(éğã¤8Âİ¬ùÆ,
+rsquid:S1450"TRemove the "model" field and declare it as a local variable in the relevant methods.(–ÑÍ8Âİ¬ùÆ,
+Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Âİ¬ùÆ,

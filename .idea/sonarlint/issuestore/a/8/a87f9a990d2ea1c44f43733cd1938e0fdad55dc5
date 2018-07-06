@@ -1,0 +1,13 @@
+
+|squid:S1171="YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8Ì˜±Ñ½,
+squid:S1319G"sThe type of the "Soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç›ªh8Ì˜±Ñ½,
+psquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÚ¢Õ8Ì˜±Ñ½,
+psquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€İÕ‹8Ì˜±Ñ½,
+usquid:S00117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¯¸ıÿÿÿÿ8Ì˜±Ñ½,
+Wsquid:S1161G":Add the "@Override" annotation above this method signature(Ç›ªh8Ì˜±Ñ½,
+Msquid:S1068"/Remove this unused "ATTACK_TYPE" private field.(ÜŠ£Ø8Ì˜±Ñ½,
+Msquid:S00108S")Either remove or fill this block of code.(¼—çîşÿÿÿÿ8Ì˜±Ñ½,
+Xsquid:S11615":Add the "@Override" annotation above this method signature(¦¸º½8Ì˜±Ñ½,
+osquid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç›ªh8Ì˜±Ñ½,
+usquid:S00117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀˆÌşûÿÿÿÿ8Ì˜±Ñ½,
+†squid:S41449"cUpdate this method so that its implementation is not identical to "getSoldiersMoveType" on line 37.(Å»è÷ÿÿÿÿÿ8Ì˜±Ñ½,

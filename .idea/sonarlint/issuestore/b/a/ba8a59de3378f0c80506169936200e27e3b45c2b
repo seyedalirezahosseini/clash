@@ -1,0 +1,5 @@
+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şšûşÿÿÿÿ8Êİ¬ùÆ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾å‹¤8Êİ¬ùÆ,
+Gsquid:S1905"+Remove this unnecessary cast to "Building".(Š­éã8Êİ¬ùÆ,
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘”ß²şÿÿÿÿ8Êİ¬ùÆ,

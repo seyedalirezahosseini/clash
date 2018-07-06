@@ -1,0 +1,17 @@
+
+O
+squid:S106%"9Replace this use of System.out or System.err by a logger.(æâ«Š
+N
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ğš­H
+vsquid:S3008"ZRename this field "MAX_COORDINATES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âàüÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(»€’À
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(‹êö£
+˜squid:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À÷Á¥
+Msquid:S2696!"6Make the enclosing method "static" or remove this set.(‹êö£
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(å‡ëÇøÿÿÿÿ

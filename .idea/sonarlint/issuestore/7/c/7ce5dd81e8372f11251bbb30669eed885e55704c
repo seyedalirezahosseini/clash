@@ -1,0 +1,21 @@
+
+zsquid:S3008"WRename this field "UPGRADE_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤û©£üÿÿÿÿ8†ÅûÆ,
+Tsquid:S1481"6Remove this unused "SOLDIER_MOVE_TYPE" local variable.(ˆÖçŒ8†ÅûÆ,
+zsquid:S3008"\Rename this field "SOLDIER_MOVE_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óŸ£€8†ÅûÆ,
+Fsquid:S00108B")Either remove or fill this block of code.(¼—çîşÿÿÿÿ
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖìÙ8†ÅûÆ,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÖçŒ8†ÅûÆ,
+hsquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç›ªh
+nsquid:S00117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀˆÌşûÿÿÿÿ
+{squid:S3008"XRename this field "ATTACK_RADIUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îßÿÿÿÿÿ8†ÅûÆ,
+Lsquid:S1068"/Remove this unused "ATTACK_TYPE" private field.(Á¹ØK8†ÅûÆ,
+Nsquid:S1481"0Remove this unused "ATTACK_TYPE" local variable.(ÖìÙ8†ÅûÆ,
+‰squid:S13194"sThe type of the "Soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç›ªh
+isquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÚ¢Õ
+nsquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¯¸ıÿÿÿÿ
+Qsquid:S1161y":Add the "@Override" annotation above this method signature(¦¸º½
+€squid:S4144}"dUpdate this method so that its implementation is not identical to "getSoldiersMoveType" on line 112.(Å»è÷ÿÿÿÿÿ
+}squid:S3008"_Rename this field "INITIAL_ATTACK_POWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èà²¿8†ÅûÆ,
+ssquid:S3008"VRename this field "ATTACK_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¹ØK8†ÅûÆ,
+vsquid:S3008"XRename this field "IMPACT_RADIUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÕš–8†ÅûÆ,
+isquid:S00117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€İÕ‹

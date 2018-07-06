@@ -1,0 +1,53 @@
+
+msquid:S1192"LDefine a constant instead of duplicating this literal "resource : " 3 times.(î­—Åıÿÿÿÿ8®·üÆ,
+Hsquid:S1602",Remove useless curly braces around statement(ëÍêŸ8®·üÆ,
+Msquid:S1602",Remove useless curly braces around statement(Ì£Š‰ùÿÿÿÿ8®·üÆ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ò¼Ğµ8Ë¹—ŠÇ,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8®·üÆ,
+nsquid:S1192"MDefine a constant instead of duplicating this literal "defence menu" 7 times.(ñ©ĞÏüÿÿÿÿ8–êµüÆ,
+Lsquid:S1481"+Remove this unused "startY" local variable.(³ï’ÿÿÿÿÿ8øÏ›ŠÇ,
+Isquid:S1172"-Remove this unused method parameter "entity".(æ™êØ8®·üÆ,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8®·üÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ô‚ëÑ8“ê…ûÆ,
+Msquid:S1602",Remove useless curly braces around statement(¸ƒğüÿÿÿÿ8Ë¹—ŠÇ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(¦óÀÂ8‰‰úÆ,
+Msquid:S1068"1Remove this unused "wizardArtWork" private field.(õŞ­¥8‰‰úÆ,
+_squid:S1854">Remove this useless assignment to local variable "imageViews".(¹£ş¯ıÿÿÿÿ8®·üÆ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìÁ²¼úÿÿÿÿ8Ë¹—ŠÇ,
+\squid:UselessImportCheck"3Remove this unused import 'javafx.scene.CacheHint'.(÷ïÖ˜8áƒÏ€Ç,
+zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8‰‰úÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ñ•Ôøÿÿÿÿ8®·üÆ,
+Fsquid:S1481"*Remove this unused "count" local variable.(æÕ¿¼8¦œ¢‚Ç,
+Msquid:S1602",Remove useless curly braces around statement(Ì£Š‰ùÿÿÿÿ8®·üÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ÍßŒ£üÿÿÿÿ8Ë¹—ŠÇ,
+Msquid:S1602",Remove useless curly braces around statement(Ş´Ô†üÿÿÿÿ8Ë¹—ŠÇ,
+Psquid:S1481"/Remove this unused "imageViews" local variable.(¹£ş¯ıÿÿÿÿ8®·üÆ,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8®·üÆ,
+Msquid:S1602",Remove useless curly braces around statement(„ÒÓŸøÿÿÿÿ8Ë¹—ŠÇ,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8®·üÆ,
+^squid:UselessImportCheck"0Remove this unused import 'javafx.scene.Cursor'.(Ó©ëİşÿÿÿÿ8ëş†ŠÇ,
+Ysquid:S1854"8Remove this useless assignment to local variable "temp".(ÈÔ¿íÿÿÿÿÿ8Ë¹—ŠÇ,
+Msquid:S1602",Remove useless curly braces around statement(Í¢—®úÿÿÿÿ8Ë¹—ŠÇ,
+Msquid:S1602",Remove useless curly braces around statement(Ì£Š‰ùÿÿÿÿ8®·üÆ,
+zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8‰‰úÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ËÌ‘ô8®·üÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(µƒí¼şÿÿÿÿ8ØÃı‰Ç,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8®·üÆ,
+Hsquid:S1602",Remove useless curly braces around statement(É£’8Ë¹—ŠÇ,
+Msquid:S1068",Remove this unused "instance" private field.(ş‚ãèıÿÿÿÿ8‰‰úÆ,
+Msquid:S1602",Remove useless curly braces around statement(Ì£Š‰ùÿÿÿÿ8®·üÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(„Ş›úÿÿÿÿ8‰‰úÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(åÅé©8®·üÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(–ó±¤úÿÿÿÿ8®·üÆ,
+Gsquid:S1481"+Remove this unused "startX" local variable.(Ï²²Î8øÏ›ŠÇ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(î¤Œõ8‰‰úÆ,
+jsquid:S1192"IDefine a constant instead of duplicating this literal "level : " 6 times.(õÁé‹ıÿÿÿÿ8“ê…ûÆ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾÷—Ñ8‰‰úÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(šñ€Áúÿÿÿÿ8Ë¹—ŠÇ,
+_squid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8şÓœ€Ç,
+dsquid:S1192"HDefine a constant instead of duplicating this literal "upgrade" 6 times.(®×Ô8®·üÆ,
+Psquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(¼½¸8®·üÆ,
+Msquid:S1602",Remove useless curly braces around statement(Ì£Š‰ùÿÿÿÿ8Ë¹—ŠÇ,
+zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8‰‰úÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ä·à—8‰‰úÆ,
+ksquid:S1192"JDefine a constant instead of duplicating this literal "user.dir" 95 times.(—ğà„øÿÿÿÿ8‰‰úÆ,

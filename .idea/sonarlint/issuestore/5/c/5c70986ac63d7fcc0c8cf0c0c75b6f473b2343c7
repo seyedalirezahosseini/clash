@@ -1,0 +1,5 @@
+
+Œsquid:S1319"rThe type of the "soldier" object should be an interface such as "List" rather than the implementation "ArrayList".(ğÕäûÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ş¶Öèùÿÿÿÿ
+Tsquid:S1161":Add the "@Override" annotation above this method signature(ğÕäûÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÕäûÿÿÿÿ

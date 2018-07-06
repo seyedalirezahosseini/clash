@@ -1,0 +1,948 @@
+{
+  "@type": "models.Village",
+  "@val": {
+    "buildings": [
+      {
+        "@type": "models.building.village.TownHall",
+        "@val": {
+          "strength": 1000,
+          "level": 1,
+          "coordinate": {
+            "x": 15,
+            "y": 15
+          },
+          "resourceNeedToBuild": {
+            "gold": 0,
+            "elixir": 0
+          },
+          "gianLoot": {
+            "score": 8,
+            "gold": 1000,
+            "elixir": 500
+          },
+          "isDestroy": false,
+          "isCompleted": true,
+          "canUpgrade": true,
+          "hasLoot": true,
+          "ID": 1,
+          "upgradeTime": 0,
+          "timeToComplete": 0,
+          "type": "TOWN_HALL",
+          "exactType": "TOWN_HALL"
+        }
+      },
+      {
+        "@type": "models.building.village.GoldStorage",
+        "@val": {
+          "capacity": 10000,
+          "resource": {
+            "gold": 1600,
+            "elixir": 0
+          },
+          "strength": 300,
+          "level": 1,
+          "coordinate": {
+            "x": 25,
+            "y": 27
+          },
+          "resourceNeedToBuild": {
+            "gold": 200,
+            "elixir": 0
+          },
+          "gianLoot": {
+            "score": 1,
+            "gold": 200,
+            "elixir": 0
+          },
+          "isDestroy": false,
+          "isCompleted": true,
+          "canUpgrade": true,
+          "hasLoot": true,
+          "ID": 1,
+          "upgradeTime": 200,
+          "timeToComplete": 0,
+          "type": "STORAGE",
+          "exactType": "GOLD_STORAGE"
+        }
+      },
+      {
+        "@type": "models.building.village.ElixirStorage",
+        "@val": {
+          "capacity": 2500,
+          "resource": {
+            "gold": 0,
+            "elixir": 130
+          },
+          "strength": 300,
+          "level": 1,
+          "coordinate": {
+            "x": 12,
+            "y": 12
+          },
+          "resourceNeedToBuild": {
+            "gold": 200,
+            "elixir": 0
+          },
+          "gianLoot": {
+            "score": 3,
+            "gold": 200,
+            "elixir": 0
+          },
+          "isDestroy": false,
+          "isCompleted": true,
+          "canUpgrade": true,
+          "hasLoot": true,
+          "ID": 1,
+          "upgradeTime": 100,
+          "timeToComplete": 0,
+          "type": "STORAGE",
+          "exactType": "ELIXIR_STORAGE"
+        }
+      },
+      {
+        "@type": "models.building.village.Barracks",
+        "@val": {
+          "waitList": [],
+          "strength": 900,
+          "level": 1,
+          "coordinate": {
+            "x": 3,
+            "y": 5
+          },
+          "resourceNeedToBuild": {
+            "gold": 200,
+            "elixir": 0
+          },
+          "gianLoot": {
+            "score": 1,
+            "gold": 200,
+            "elixir": 0
+          },
+          "isDestroy": false,
+          "isCompleted": true,
+          "canUpgrade": true,
+          "hasLoot": true,
+          "ID": 1,
+          "upgradeTime": 100,
+          "timeToComplete": 0,
+          "type": "BARRACKS",
+          "exactType": "BARRACKS"
+        }
+      },
+      {
+        "@type": "models.building.village.Camp",
+        "@val": {
+          "capacity": 50,
+          "soldiers": [
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Archer",
+              "@val": {
+                "type": "ARCHER",
+                "buildTime": 9,
+                "buildCost": 60,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 10,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Dragon",
+              "@val": {
+                "type": "DRAGON",
+                "buildTime": 39,
+                "buildCost": 175,
+                "timeToBuild": 0,
+                "strength": 31,
+                "fullHealth": 705,
+                "leftHealth": 0,
+                "attackRadius": 3,
+                "speed": 6,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "AIR"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Dragon",
+              "@val": {
+                "type": "DRAGON",
+                "buildTime": 39,
+                "buildCost": 175,
+                "timeToBuild": 0,
+                "strength": 31,
+                "fullHealth": 705,
+                "leftHealth": 0,
+                "attackRadius": 3,
+                "speed": 6,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "AIR"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Giant",
+              "@val": {
+                "type": "GIANT",
+                "buildTime": 29,
+                "buildCost": 125,
+                "timeToBuild": 0,
+                "strength": 31,
+                "fullHealth": 505,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 3,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Giant",
+              "@val": {
+                "type": "GIANT",
+                "buildTime": 29,
+                "buildCost": 125,
+                "timeToBuild": 0,
+                "strength": 31,
+                "fullHealth": 505,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 3,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            },
+            {
+              "@type": "models.livingBeing.Attack.Gaurdian",
+              "@val": {
+                "type": "GAURDIAN",
+                "buildTime": 9,
+                "buildCost": 50,
+                "timeToBuild": 0,
+                "strength": 11,
+                "fullHealth": 105,
+                "leftHealth": 0,
+                "attackRadius": 1,
+                "speed": 2,
+                "limit": 30,
+                "level": 1,
+                "set": false,
+                "moveType": "GROUND"
+              }
+            }
+          ],
+          "strength": 300,
+          "level": 0,
+          "coordinate": {
+            "x": 4,
+            "y": 9
+          },
+          "resourceNeedToBuild": {
+            "gold": 200,
+            "elixir": 0
+          },
+          "gianLoot": {
+            "score": 1,
+            "gold": 200,
+            "elixir": 0
+          },
+          "isDestroy": false,
+          "isCompleted": true,
+          "canUpgrade": true,
+          "hasLoot": true,
+          "ID": 1,
+          "upgradeTime": 100,
+          "timeToComplete": 0,
+          "type": "CAMP",
+          "exactType": "CAMP"
+        }
+      }
+    ],
+    "map": {
+      "cells": [
+        [
+          {
+            "x": 16,
+            "y": 15
+          },
+          "@root.buildings.0"
+        ],
+        [
+          "@root.buildings.2.coordinate",
+          "@root.buildings.2"
+        ],
+        [
+          "@root.buildings.1.coordinate",
+          "@root.buildings.1"
+        ],
+        [
+          {
+            "x": 15,
+            "y": 15
+          },
+          "@root.buildings.0"
+        ],
+        [
+          {
+            "x": 16,
+            "y": 16
+          },
+          "@root.buildings.0"
+        ],
+        [
+          {
+            "x": 15,
+            "y": 16
+          },
+          "@root.buildings.0"
+        ],
+        [
+          "@root.buildings.3.coordinate",
+          "@root.buildings.3"
+        ],
+        [
+          "@root.buildings.4.coordinate",
+          "@root.buildings.4"
+        ]
+      ]
+    },
+    "storages": [
+      "@root.buildings.1",
+      "@root.buildings.2"
+    ],
+    "score": 0,
+    "camps": [
+      "@root.buildings.4"
+    ],
+    "townHall": "@root.buildings.0",
+    "barrackses": [
+      "@root.buildings.3"
+    ],
+    "workers": [
+      {
+        "timeToComplete": 0,
+        "free": true,
+        "isUpgrade": false
+      }
+    ],
+    "upgradeWaitList": [],
+    "mines": [],
+    "defenceBuildings": [],
+    "buidingsHashMap": [
+      [
+        null,
+        "@root.buildings.0"
+      ],
+      [
+        {
+          "x": 16,
+          "y": 15
+        },
+        "@root.buildings.0"
+      ],
+      [
+        "@root.buildings.1.coordinate",
+        "@root.buildings.1"
+      ],
+      [
+        "@root.buildings.2.coordinate",
+        "@root.buildings.2"
+      ],
+      [
+        {
+          "x": 15,
+          "y": 15
+        },
+        "@root.buildings.0"
+      ],
+      [
+        {
+          "x": 16,
+          "y": 16
+        },
+        "@root.buildings.0"
+      ],
+      [
+        {
+          "x": 15,
+          "y": 16
+        },
+        "@root.buildings.0"
+      ],
+      [
+        "@root.buildings.3.coordinate",
+        "@root.buildings.3"
+      ]
+    ]
+  }
+}

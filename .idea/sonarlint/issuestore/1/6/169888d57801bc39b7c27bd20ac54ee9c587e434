@@ -1,0 +1,24 @@
+
+_squid:S1126R"AReplace this if-then-else statement by a single return statement.(¼ÙØı8©Š©ŒÁ,
+9squid:S3626"Remove this redundant jump.(ûÁİ…8©Š©ŒÁ,
+[
+squid:S106="9Replace this use of System.out or System.err by a logger.(‚±üåûÿÿÿÿ8©Š©ŒÁ,
+Isquid:S10758"&Remove this hard-coded path-delimiter.(Îáß«ıÿÿÿÿ8©Š©ŒÁ,
+V
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ñ£Íÿ8©Š©ŒÁ,
+Psquid:S1135"2Complete the task associated to this TODO comment.(àâ¶€8©Š©ŒÁ,
+[
+squid:S106-"9Replace this use of System.out or System.err by a logger.(¡·ÿéûÿÿÿÿ8©Š©ŒÁ,
+[
+squid:S106?"9Replace this use of System.out or System.err by a logger.(Ô‹û•ùÿÿÿÿ8©Š©ŒÁ,
+_squid:S1126H"AReplace this if-then-else statement by a single return statement.(¼ÙØı8©Š©ŒÁ,
+Fsquid:S1148l"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+isquid:S11928"FDefine a constant instead of duplicating this literal ".json" 4 times.(Îáß«ıÿÿÿÿ8©Š©ŒÁ,
+fsquid:S2095A"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(´ˆâë8©Š©ŒÁ,
+squid:S1319b"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÒÈÁş8©Š©ŒÁ,
+lsquid:S4042:"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8©Š©ŒÁ,
+]
+squid:S899:";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8©Š©ŒÁ,
+Isquid:S1075G"&Remove this hard-coded path-delimiter.(Îáß«ıÿÿÿÿ8©Š©ŒÁ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ¯ûåûÿÿÿÿ8©Š©ŒÁ,

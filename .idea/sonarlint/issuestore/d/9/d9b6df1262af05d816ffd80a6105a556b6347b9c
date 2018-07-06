@@ -1,0 +1,8 @@
+
+|squid:S1171
+"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8Ì˜±Ñ½,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÆÊŒ8Ì˜±Ñ½,
+Usquid:S1135"2Complete the task associated to this TODO comment.(Õ‹‚Ïùÿÿÿÿ8Ì˜±Ñ½,
+‘squid:S1319"sThe type of the "soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(¸ÆÊŒ8Ì˜±Ñ½,
+Usquid:S1135"2Complete the task associated to this TODO comment.(ÆÒ‘¥øÿÿÿÿ8Ì˜±Ñ½,
+Xsquid:S1161.":Add the "@Override" annotation above this method signature(¼îó‹8Ì˜±Ñ½,

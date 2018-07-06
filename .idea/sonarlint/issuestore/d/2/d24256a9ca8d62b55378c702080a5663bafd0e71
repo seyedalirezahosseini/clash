@@ -1,0 +1,5 @@
+
+]squid:S1126)"AReplace this if-then-else statement by a single return statement.(û¼èÜúÿÿÿÿ
+‰squid:S13192"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(øƒ·¶ùÿÿÿÿ
+²%squid:RedundantThrowsDeclarationCheck"€Remove the declaration of thrown exception 'exceptions.CoordinateOutOfBondException', as it cannot be thrown from method's body.(¾¥
+˜squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ûî¯À

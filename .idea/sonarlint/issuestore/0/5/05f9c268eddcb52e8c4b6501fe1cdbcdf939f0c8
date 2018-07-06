@@ -1,0 +1,17 @@
+
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆØÓüÿÿÿÿ8Êİ¬ùÆ,
+`squid:S2147"DCombine this catch with the one at line 89, which has the same body.(ï­£Ä8Êİ¬ùÆ,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆØÓüÿÿÿÿ8Êİ¬ùÆ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã“ƒñúÿÿÿÿ8Êİ¬ùÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(•¾°ç8Êİ¬ùÆ,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆØÓüÿÿÿÿ8Êİ¬ùÆ,
+Ÿ%squid:RedundantThrowsDeclarationCheck"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(¯¼š8Êİ¬ùÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ÊŞ²êıÿÿÿÿ8Êİ¬ùÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(Œ”©Àşÿÿÿÿ8Êİ¬ùÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ÊŞ²êıÿÿÿÿ8Êİ¬ùÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(•¾°ç8Êİ¬ùÆ,
+Fsquid:S00108")Either remove or fill this block of code.(ï­£Ä8Êİ¬ùÆ,
+Fsquid:S00108")Either remove or fill this block of code.(ï­£Ä8Êİ¬ùÆ,
+asquid:S2147"ECombine this catch with the one at line 111, which has the same body.(ï­£Ä8Êİ¬ùÆ,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆØÓüÿÿÿÿ8Êİ¬ùÆ,

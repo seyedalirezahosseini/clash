@@ -1,0 +1,19 @@
+
+Vsquid:S1161x":Add the "@Override" annotation above this method signature(ÌÈçáùÿÿÿÿ
+Bsquid:S1168S"+Return an empty collection instead of null.(¥¹ï
+Xsquid:S1126H"AReplace this if-then-else statement by a single return statement.(ôÛŠ
+Ssquid:UselessImportCheck"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
+†squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(§ÿÊz
+Œsquid:S1319R"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ìôÉÀÿÿÿÿÿ
+Bsquid:S2387"+"type" is the name of a field in "Soldier".(ÀĞ§Ü
+squid:S1319$"sThe type of the "soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(´²òàøÿÿÿÿ
+Wsquid:S1161":Add the "@Override" annotation above this method signature(É©¿Áùÿÿÿÿ
+Zsquid:S1155*">Use isEmpty() to check whether the collection is empty or not.(€¾²«øÿÿÿÿ
+nsquid:S3776("RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(™Óú½üÿÿÿÿ
+u
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ìë»üÿÿÿÿ
+Usquid:S1155X">Use isEmpty() to check whether the collection is empty or not.( Á²¹
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜŠÓ¶
+nsquid:S3776W"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¦ƒ‡Üùÿÿÿÿ
+Xsquid:S1126"AReplace this if-then-else statement by a single return statement.(ö·Å\
+Qsquid:S1161M":Add the "@Override" annotation above this method signature(Ñ¬¯À

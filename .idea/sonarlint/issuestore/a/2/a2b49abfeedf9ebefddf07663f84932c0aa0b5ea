@@ -1,0 +1,12 @@
+
+Dsquid:S1068"/Remove this unused "ATTACK_TYPE" private field.(ÛÓå±
+fsquid:S1871"LThis branch's code block is the same as the block for the branch on line 80.(‡ã°Ûùÿÿÿÿ
+}squid:S4144"cUpdate this method so that its implementation is not identical to "getSoldiersMoveType" on line 33.(Å»è÷ÿÿÿÿÿ
+‡squid:S1319"sThe type of the "Soldiers" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç›ªh
+Fsquid:S1135"2Complete the task associated to this TODO comment.(ÑõÇ
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç›ªh
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÔ´
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¯¸ıÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öõ½âùÿÿÿÿ
+Osquid:S1161":Add the "@Override" annotation above this method signature(¦¸º½
+Nsquid:S1161":Add the "@Override" annotation above this method signature(Ç›ªh

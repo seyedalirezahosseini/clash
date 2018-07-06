@@ -1,0 +1,39 @@
+
+†"squid:ClassVariableVisibilityCheckô"PMake type a static final constant or non-public and provide accessors if needed.(ı®ˆ•8©Š©ŒÁ,
+‹"squid:ClassVariableVisibilityCheckğ"UMake buildings a static final constant or non-public and provide accessors if needed.(šíÓ8©Š©ŒÁ,
+Psquid:S1135"2Complete the task associated to this TODO comment.(ğ·¨¸8©Š©ŒÁ,
+nsquid:S00100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÒËÖ8©Š©ŒÁ,
+Œ"squid:ClassVariableVisibilityCheckî"QMake walls a static final constant or non-public and provide accessors if needed.(¤ÇÆ®ùÿÿÿÿ8©Š©ŒÁ,
+‹"squid:ClassVariableVisibilityCheckí"PMake size a static final constant or non-public and provide accessors if needed.(¶Ïº²şÿÿÿÿ8©Š©ŒÁ,
+Gsquid:S1148»"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+ˆ"squid:ClassVariableVisibilityCheckş"MMake y a static final constant or non-public and provide accessors if needed.(Ùüûÿÿÿÿ8©Š©ŒÁ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºÙßÅ8©Š©ŒÁ,
+Vsquid:S1135í"2Complete the task associated to this TODO comment.(¶Ïº²şÿÿÿÿ8©Š©ŒÁ,
+‡"squid:ClassVariableVisibilityCheckü"QMake level a static final constant or non-public and provide accessors if needed.(×îæ8©Š©ŒÁ,
+…squid:S4165¢"fRemove this useless assignment; "building" already holds the assigned value along all execution paths.(¤ÖÏ8©Š©ŒÁ,
+Vsquid:S1135˜"2Complete the task associated to this TODO comment.(ƒÃê×üÿÿÿÿ8©Š©ŒÁ,
+"squid:ClassVariableVisibilityCheckï"UMake resources a static final constant or non-public and provide accessors if needed.(İ»Èªşÿÿÿÿ8©Š©ŒÁ,
+ƒ"squid:ClassVariableVisibilityCheckö"MMake x a static final constant or non-public and provide accessors if needed.(éà‰—8©Š©ŒÁ,
+"squid:ClassVariableVisibilityCheckƒ"RMake elixir a static final constant or non-public and provide accessors if needed.(ÄÙ“°şÿÿÿÿ8©Š©ŒÁ,
+Ysquid:S1141¸"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8©Š©ŒÁ,
+fsquid:UnusedPrivateMethodB":Remove this unused private "addResourcesToVillage" method.(µ¡Å8©Š©ŒÁ,
+‡"squid:ClassVariableVisibilityCheckø"RMake amount a static final constant or non-public and provide accessors if needed.(¡Ûë48©Š©ŒÁ,
+‡"squid:ClassVariableVisibilityCheckõ"QMake level a static final constant or non-public and provide accessors if needed.(×îæ8©Š©ŒÁ,
+ˆ"squid:ClassVariableVisibilityCheck÷"MMake y a static final constant or non-public and provide accessors if needed.(Ùüûÿÿÿÿ8©Š©ŒÁ,
+dsquid:S2147³"ECombine this catch with the one at line 177, which has the same body.(ÑÏ´³8©Š©ŒÁ,
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Ö–²Éøÿÿÿÿ8©Š©ŒÁ,
+dsquid:S2147¼"ECombine this catch with the one at line 186, which has the same body.(•ñÁ8©Š©ŒÁ,
+Gsquid:S1148½"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+msquid:S00100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò©÷±8©Š©ŒÁ,
+Vsquid:S1135È"2Complete the task associated to this TODO comment.(¿ö´æüÿÿÿÿ8©Š©ŒÁ,
+‹"squid:ClassVariableVisibilityCheck‚"PMake gold a static final constant or non-public and provide accessors if needed.(ëëíÿÿÿÿÿ8©Š©ŒÁ,
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ØÇÒ¥8©Š©ŒÁ,
+ƒ"squid:ClassVariableVisibilityCheckı"MMake x a static final constant or non-public and provide accessors if needed.(éà‰—8©Š©ŒÁ,
+nsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(Øòµùÿÿÿÿ8©Š©ŒÁ,
+Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+Gsquid:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+Gsquid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Š©ŒÁ,
+Rsquid:S1068"4Remove this unused "buildingsHashMap" private field.(˜„º8©Š©ŒÁ,
+isquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(êë†ƒ8©Š©ŒÁ,
+Ysquid:S1141¯"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8©Š©ŒÁ,

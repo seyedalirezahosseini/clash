@@ -1,0 +1,76 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ»×Õûÿÿÿÿ8ÄÝ¬ùÆ,
+Žsquid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Þ’èŸüÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+:squid:S1872"Use "isAssignableFrom" instead.(âÑ™38ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(°ƒò‡þÿÿÿÿ8ÄÝ¬ùÆ,
+Osquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(¡­þC8ÂÝ¬ùÆ,
+;squid:S1872"Use "isAssignableFrom" instead.(æÒåÕ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÂÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÂÝ¬ùÆ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÄÝ¬ùÆ,
+gsquid:S1764"KCorrect one of the identical sub-expressions on both sides of operator "&&"(¼©þÝ8ÂÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+;squid:S1872"Use "isAssignableFrom" instead.(î’­©8ÄÝ¬ùÆ,
+lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+7squid:S3626"Remove this redundant jump.(ûÁÝ…8ÄÝ¬ùÆ,
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Œ»¹í8ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(Ä¡”Åúÿÿÿÿ8ÄÝ¬ùÆ,
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(¤ù‚‰ÿÿÿÿÿ8ÄÝ¬ùÆ,
+@squid:S1640"Convert this Map to an EnumMap.(§šâãþÿÿÿÿ8ÂÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(¡Ý€›ÿÿÿÿÿ8ÄÝ¬ùÆ,
+Œ"squid:SwitchLastCaseIsDefaultCheck"YComplete cases by adding the missing enum constants or add a default case to this switch.(Œ»¹í8ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(Ð˜èÊøÿÿÿÿ8ÄÝ¬ùÆ,
+:squid:S1872"Use "isAssignableFrom" instead.(âÑ™38ÄÝ¬ùÆ,
+‰squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ü“ŠÒ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ý‹÷Ýùÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(–Á°­ûÿÿÿÿ8ÄÝ¬ùÆ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬Â¹¾8ÄÝ¬ùÆ,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ÙãÎ8ÄÝ¬ùÆ,
+^squid:UnusedPrivateMethod"/Remove this unused private "attackMode" method.(¥²¡¹ýÿÿÿÿ8ÂÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(Ïîó°ûÿÿÿÿ8ÄÝ¬ùÆ,
+:squid:S1872"Use "isAssignableFrom" instead.(³ðák8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÄÝ¬ùÆ,
+lsquid:S1764"KCorrect one of the identical sub-expressions on both sides of operator "||"(¡Ý€›ÿÿÿÿÿ8ÂÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(×Êâùÿÿÿÿ8ÄÝ¬ùÆ,
+lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ªÁÉóùÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÂÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÂÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(Ð˜èÊøÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+‹squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(áœÛ8ÄÝ¬ùÆ,
+7squid:S3626"Remove this redundant jump.(ûÁÝ…8ÄÝ¬ùÆ,
+;squid:S1872"Use "isAssignableFrom" instead.(Ú®ü¢8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÁÉóùÿÿÿÿ8ÂÝ¬ùÆ,
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(Íï‰8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+Vsquid:S1854"5Remove this useless assignment to local variable "i".(›§æ±ùÿÿÿÿ8ÄÝ¬ùÆ,
+y
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8ÄÝ¬ùÆ,
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(¤Ñ‹¾8ÄÝ¬ùÆ,
+Vsquid:S1854"5Remove this useless assignment to local variable "i".(Á²òÿÿÿÿÿ8ÄÝ¬ùÆ,
+@squid:S1872"Use "isAssignableFrom" instead.(•¾ˆžþÿÿÿÿ8ÄÝ¬ùÆ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦ú¥¾ûÿÿÿÿ8ÄÝ¬ùÆ,
