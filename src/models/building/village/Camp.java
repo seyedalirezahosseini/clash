@@ -38,6 +38,8 @@ public class Camp extends Building {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.CAMP_HEALTH);
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.CAMP_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.CAMP_LOOT);
+        this.maxStrength = this.strength;
+
     }
 
     public int getCapacity() {

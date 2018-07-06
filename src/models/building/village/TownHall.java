@@ -25,6 +25,7 @@ public class TownHall extends Building implements Upgradeable {
 
     public TownHall() {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.TOWNHALL_HEALTH);
+        this.maxStrength = this.strength;
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.TOWNHALL_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.TOWNHALL_LOOT);
         exactType = type = BuildingType.TOWN_HALL;

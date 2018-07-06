@@ -24,9 +24,13 @@ public class Building implements VisibleEntity {
     protected int timeToComplete;
     protected BuildingType type;
     protected BuildingType exactType;
-
+    protected int maxStrength;
     public int getTimeToComplete() {
         return timeToComplete;
+    }
+
+    public int getMaxStrength() {
+        return maxStrength;
     }
 
     public BuildingType getExactType() {

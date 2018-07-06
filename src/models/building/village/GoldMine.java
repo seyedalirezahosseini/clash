@@ -16,6 +16,8 @@ public class GoldMine extends Mine {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.GOLD_MINE_HEALTH);
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.GOLD_MINE_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.GOLD_MINE_LOOT);
+        this.maxStrength = this.strength;
+
     }
 
     public void setID() {

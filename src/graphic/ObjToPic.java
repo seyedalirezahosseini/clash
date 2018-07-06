@@ -477,7 +477,10 @@ public class ObjToPic {
     private Scene getCampScene(Camp camp) {
         Label levelLabel = new Label("level : " + camp.getLevel());
         Label capacityLabel = new Label("capacity : " + camp.getCapacity());
-        Button soldiersButton = new Button("soldiers");//todo
+        Button soldiersButton = new Button("soldiers");
+        soldiersButton.setOnAction(event -> {
+            secondStage.setScene(getSoldiersScene(camp));
+        });
         Button backButton = new Button("back");
         backButton.setOnAction(event -> {
             secondStage.close();
@@ -486,6 +489,63 @@ public class ObjToPic {
         buttons.getChildren().addAll(backButton, soldiersButton);
         VBox vBox = new VBox(levelLabel, capacityLabel, buttons);
         return new Scene(vBox, WIDTH, HEIGHT);
+    }
+
+    private Scene getSoldiersScene(Camp camp) {
+        HashMap<SoldierType, Integer> soldiers = villageController.campListOfSoldiers(camp);
+        HashMap<ImageView , Integer> soldiersImage = new HashMap<>();
+            for (SoldierType type :
+                    soldiers.keySet()) {
+                ImageView temp = new ImageView();
+                switch (type) {
+                    case DRAGON:
+                        temp = makeImageView(new Dragon(1), dragonArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.DRAGON));
+                        break;
+                    case HEALER:
+                        temp = makeImageView(new Healer(1), healerArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.HEALER));
+                        break;
+                    case GIANT:
+                        temp = makeImageView(new Giant(1), giantArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.GIANT));
+                        break;
+                    case GAURDIAN:
+                        temp = makeImageView(new Gaurdian(1), guardianArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.GAURDIAN));
+                        break;
+                    case WALLBREAKER:
+                        temp = makeImageView(new WallBreaker(1), wallBreakerArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.WALLBREAKER));
+                        break;
+                    case ARCHER:
+                        temp = makeImageView(new Archer(1), archerArtWork);
+                        temp.setScaleX(0.5);
+                        temp.setScaleY(0.5);
+                        soldiersImage.put(temp , soldiers.get(SoldierType.ARCHER));
+                        break;
+                }
+            }
+            GridPane pane = new GridPane();
+            int i = 0;
+        for (ImageView imageView:
+                soldiersImage.keySet()) {
+            i += 2;
+            Text number = new Text(soldiersImage.get(imageView).toString());
+            pane.add(imageView , i%4 , i/4);
+            pane.add(number , i%4+1 , i/4);
+        }
+        return new Scene(pane , WIDTH , HEIGHT);
     }
 
     private Scene getBarracksScene(Barracks barracks) {
@@ -685,9 +745,9 @@ public class ObjToPic {
         final Rectangle[] rectangle = {new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5, (building.getStrength() / 1000) * 20, 5)};
         final Rectangle[] rectangle2 = {new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5, (building.getStrength() / 1000) * 20, 4)};
         imageView.setOnMouseEntered(event -> {
-            rectangle[0] = new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5, (building.getStrength() / 100) * 20, 5);
+            rectangle[0] = new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5,  60, 5);
             rectangle[0].setFill(Color.BLACK);
-            rectangle2[0] = new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5, (building.getStrength() / 100) * 20, 4);
+            rectangle2[0] = new Rectangle((int) imageView.getX() + 20, (int) imageView.getY() + 5.5, (building.getStrength() / building.getMaxStrength()) * 60, 4);
             rectangle2[0].setFill(Color.RED);
             MainMenuUI.getVillageUI().getPane().getChildren().addAll(rectangle[0], rectangle2[0]);
         });
@@ -741,9 +801,22 @@ public class ObjToPic {
         HBox hBox = new HBox();
         hBox.getChildren().addAll(comboBox);
         TextField number = new TextField();
+        Button buildButton = new Button("build");
+        buildButton.setOnAction(event -> {
+            int n = villageController.howManyCanBuild(soldiersImage.get(comboBox.getSelectionModel().getSelectedItem()));
+            int num =  Integer.parseInt(number.getText());
+            if (n >= num) {
+                villageController.getvillage().trainTroops(soldiersImage.get(comboBox.getSelectionModel().getSelectedItem()), num, barracks);
+            }else  {
+                Alert alert = new Alert(Alert.AlertType.ERROR , "you don't have enough resource\n", ButtonType.CLOSE);
+                alert.showAndWait();
+            }
+        });
         number.setPromptText("how many soldier?");
         hBox.getChildren().addAll(number);
-        return new Scene(hBox, WIDTH, HEIGHT);
+        VBox vBox = new VBox();
+        vBox.getChildren().addAll(hBox , buildButton);
+        return new Scene(vBox , WIDTH, HEIGHT);
     }
 
     private HashMap<ImageView, SoldierType> getSoldiersImage(Barracks barracks) {
@@ -757,7 +830,7 @@ public class ObjToPic {
                     temp = makeImageView(new Dragon(barracks.getLevel()), dragonArtWork);
                     temp.setScaleX(0.5);
                     temp.setScaleY(0.5);
-                    soldiers.put(temp, SoldierType.DRAGON);
+                    soldiers.put(temp , SoldierType.DRAGON );
                     break;
                 case HEALER:
                     temp = makeImageView(new Healer(barracks.getLevel()), healerArtWork);

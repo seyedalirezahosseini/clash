@@ -33,6 +33,8 @@ public class Barracks extends Building implements Upgradeable {
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.BARRACKS_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.BARRACKS_LOOT);
         exactType = type = BuildingType.BARRACKS;
+        this.maxStrength = this.strength;
+
     }
 
     public void addSoldier(Soldier soldier){

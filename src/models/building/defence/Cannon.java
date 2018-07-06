@@ -41,6 +41,8 @@ public class Cannon extends DefenceBuilding {
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.CANNON_LOOT);
         this.resourceNeedToUpgrade = Dictionary.getInstance().get(DictionaryIndexType.CANNON_BUILD);
         this.ID = Cannon.generateIDCode();
+        this.maxStrength = this.strength;
+
         super.setAttackPower(INITIAL_ATTACK_POWER);
     }
 

@@ -23,6 +23,8 @@ public class GoldStorage extends Storage {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.GOLD_STPRAGE_HEALTH);
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.GOLD_STORAGE_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.GOLD_STORAGE_LOOT);
+        this.maxStrength = this.strength;
+
     }
 
     public void setID() {

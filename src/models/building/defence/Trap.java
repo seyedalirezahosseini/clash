@@ -40,6 +40,8 @@ public class Trap extends DefenceBuilding {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.TRAP_STRENGTH);
         super.setAttackPower(INITIAL_ATTACK_POWER);
         this.ID = ArcherTower.generateIDCode();
+        this.maxStrength = this.strength;
+
     }
 
 // Attack Methods

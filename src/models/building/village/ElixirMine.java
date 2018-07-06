@@ -16,6 +16,8 @@ public class ElixirMine extends Mine {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.ELIXIR_MINE_HEALTH);
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.ELIXIR_MINE_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.ELIXIR_MINE_LOOT);
+        this.maxStrength = this.strength;
+
     }
     public void setID() {
         this.ID = ElixirMine.generateIDCode();

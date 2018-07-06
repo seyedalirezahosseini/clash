@@ -40,6 +40,7 @@ public class AirDefence extends DefenceBuilding {
         this.resourceNeedToUpgrade = Dictionary.getInstance().get(DictionaryIndexType.AIR_DEFENCE_BUILD);
         super.setAttackPower(INITIAL_ATTACK_POWER);
         this.ID = AirDefence.generateIDCode();
+        this.maxStrength = this.strength;
     }
 
     public static int generateIDCode() {

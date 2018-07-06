@@ -198,7 +198,7 @@ public class VillageController {
                     notUpgradeableBuildingInfo(camp);
                     break;
                 case 2:
-                    soldiersPrint(camp);
+//                    soldiersPrint(camp);
                     break;
                 case 3:
                     return;
@@ -206,7 +206,7 @@ public class VillageController {
         }
     }
 
-    public void soldiersPrint(Camp camp) {
+    public HashMap<SoldierType , Integer> campListOfSoldiers(Camp camp) {
         HashMap<SoldierType, Integer> list = new HashMap<>();
         for (Soldier soldier :
                 camp.getSoldiers()) {
@@ -216,7 +216,7 @@ public class VillageController {
                 list.put(soldier.getType(), 1);
             }
         }
-        view.printSoldiers(list);
+        return list;
     }
 
     public void mineMenu(Mine mine) {

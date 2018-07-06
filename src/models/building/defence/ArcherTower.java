@@ -41,6 +41,8 @@ public class ArcherTower extends DefenceBuilding {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.ARCHER_TOWER_STRENGTH);
         super.setAttackPower(INITIAL_ATTACK_POWER);
         this.ID = ArcherTower.generateIDCode();
+        this.maxStrength = this.strength;
+
     }
 
     public static int generateIDCode() {

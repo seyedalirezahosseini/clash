@@ -19,6 +19,8 @@ public class ElixirStorage extends Storage {
         this.strength = Dictionary.getInstance().getConst(DictionaryIndexType.ELIXIR_STORAGE_HEALTH);
         this.resourceNeedToBuild = Dictionary.getInstance().get(DictionaryIndexType.ELIXIR_STORAGE_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.ELIXIR_STORAGE_LOOT);
+        this.maxStrength = this.strength;
+
     }
 
     public void setID() {

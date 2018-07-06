@@ -30,6 +30,7 @@ public class WizardTower extends DefenceBuilding {
         this.resourceNeedToUpgrade = Dictionary.getInstance().get(DictionaryIndexType.WIZARD_TOWER_BUILD);
         this.gainLoot = (Loot) Dictionary.getInstance().get(DictionaryIndexType.WIZARD_TOWER_LOOT);
         this.ID = WizardTower.generateIDCode();
+        this.maxStrength = this.strength;
 
     }
 
